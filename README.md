@@ -1,6 +1,6 @@
 # ML Parser :cyclone: # 
 
-This repository contains all the needed code to parse the CSV files produced by [Grade Parser](https://github.com/acmauth/GradeParser) along with the CSV file produced by the students submissions (Google Forms).
+This repository contains all the needed code to parse the CSV files produced by [Grade Parser](https://github.com/acmauth/GradeParser) along with the CSV file produced by the students submissions (Google Forms). The files needed for these to run are inside the Google Drive folder. 
 
 **This repository is in WIP mode. Read carefully what each file does! Ask the authors for more information**
 
@@ -9,3 +9,6 @@ These code is used inside the Google Forms app script to add an extract column t
 
 ## "Statistics Parser.ipynb" :baby: ##
 Initial parsing of the grade submissions. It is meant only for research purposes and not for production environments. There are more info inside the notebook.
+
+## Simple ML :bowtie: ## 
+Tests simple ML models for each course.  There are more info inside the notebook.
