@@ -1,0 +1,449 @@
+{
+  "courses": [
+    {
+      "courseId": 40002908,
+      "coursecode": "NCO-01-01",
+      "ccoursecode": "180-NCO-01-01"
+    },
+    {
+      "courseId": 40002909,
+      "coursecode": "NCO-01-02",
+      "ccoursecode": "180-NCO-01-02"
+    },
+    {
+      "courseId": 40002910,
+      "coursecode": "NCO-01-03",
+      "ccoursecode": "180-NCO-01-03"
+    },
+    {
+      "courseId": 40002911,
+      "coursecode": "NCO-01-04",
+      "ccoursecode": "180-NCO-01-04"
+    },
+    {
+      "courseId": 40002912,
+      "coursecode": "NCO-01-05",
+      "ccoursecode": "180-NCO-01-05"
+    },
+    {
+      "courseId": 40002913,
+      "coursecode": "NCO-02-01",
+      "ccoursecode": "180-NCO-02-01"
+    },
+    {
+      "courseId": 40002914,
+      "coursecode": "NNA-06-01",
+      "ccoursecode": "180-NNA-06-01"
+    },
+    {
+      "courseId": 40002915,
+      "coursecode": "NNA-06-02",
+      "ccoursecode": "180-NNA-06-02"
+    },
+    {
+      "courseId": 40002917,
+      "coursecode": "NNA-07-01",
+      "ccoursecode": "180-NNA-07-01"
+    },
+    {
+      "courseId": 40002918,
+      "coursecode": "NCO-02-02",
+      "ccoursecode": "180-NCO-02-02"
+    },
+    {
+      "courseId": 40002919,
+      "coursecode": "NNA-07-02",
+      "ccoursecode": "180-NNA-07-02"
+    },
+    {
+      "courseId": 40002920,
+      "coursecode": "NCO-02-03",
+      "ccoursecode": "180-NCO-02-03"
+    },
+    {
+      "courseId": 40002921,
+      "coursecode": "NCO-02-04",
+      "ccoursecode": "180-NCO-02-04"
+    },
+    {
+      "courseId": 40002922,
+      "coursecode": "NCO-02-05",
+      "ccoursecode": "180-NCO-02-05"
+    },
+    {
+      "courseId": 40002923,
+      "coursecode": "NNA-07-03",
+      "ccoursecode": "180-NNA-07-03"
+    },
+    {
+      "courseId": 40002924,
+      "coursecode": "NNA-07-04",
+      "ccoursecode": "180-NNA-07-04"
+    },
+    {
+      "courseId": 40002925,
+      "coursecode": "NNA-07-05",
+      "ccoursecode": "180-NNA-07-05"
+    },
+    {
+      "courseId": 40002926,
+      "coursecode": "NNA-07-06",
+      "ccoursecode": "180-NNA-07-06"
+    },
+    {
+      "courseId": 40002928,
+      "coursecode": "NNA-07-08",
+      "ccoursecode": "180-NNA-07-08"
+    },
+    {
+      "courseId": 40002932,
+      "coursecode": "NCO-03-01",
+      "ccoursecode": "180-NCO-03-01"
+    },
+    {
+      "courseId": 40002933,
+      "coursecode": "NCO-03-02",
+      "ccoursecode": "180-NCO-03-02"
+    },
+    {
+      "courseId": 40002934,
+      "coursecode": "NCO-03-03",
+      "ccoursecode": "180-NCO-03-03"
+    },
+    {
+      "courseId": 40002935,
+      "coursecode": "NCO-03-04",
+      "ccoursecode": "180-NCO-03-04"
+    },
+    {
+      "courseId": 40002936,
+      "coursecode": "NCO-03-05",
+      "ccoursecode": "180-NCO-03-05"
+    },
+    {
+      "courseId": 40002937,
+      "coursecode": "NCO-04-01",
+      "ccoursecode": "180-NCO-04-01"
+    },
+    {
+      "courseId": 40002938,
+      "coursecode": "NCO-04-02",
+      "ccoursecode": "180-NCO-04-02"
+    },
+    {
+      "courseId": 40002939,
+      "coursecode": "NCO-04-03",
+      "ccoursecode": "180-NCO-04-03"
+    },
+    {
+      "courseId": 40002940,
+      "coursecode": "NCO-04-04",
+      "ccoursecode": "180-NCO-04-04"
+    },
+    {
+      "courseId": 40002941,
+      "coursecode": "NCO-04-05",
+      "ccoursecode": "180-NCO-04-05"
+    },
+    {
+      "courseId": 40002942,
+      "coursecode": "NCO-05-01",
+      "ccoursecode": "180-NCO-05-01"
+    },
+    {
+      "courseId": 40002943,
+      "coursecode": "NNA-08-03",
+      "ccoursecode": "180-NNA-08-03"
+    },
+    {
+      "courseId": 40002944,
+      "coursecode": "NCO-05-02",
+      "ccoursecode": "180-NCO-05-02"
+    },
+    {
+      "courseId": 40002945,
+      "coursecode": "NCO-05-03",
+      "ccoursecode": "180-NCO-05-03"
+    },
+    {
+      "courseId": 40002946,
+      "coursecode": "NCO-05-04",
+      "ccoursecode": "180-NCO-05-04"
+    },
+    {
+      "courseId": 40002947,
+      "coursecode": "NCO-05-05",
+      "ccoursecode": "180-NCO-05-05"
+    },
+    {
+      "courseId": 40002948,
+      "coursecode": "NET-06-01",
+      "ccoursecode": "180-NET-06-01"
+    },
+    {
+      "courseId": 40002949,
+      "coursecode": "NIS-06-01",
+      "ccoursecode": "180-NIS-06-01"
+    },
+    {
+      "courseId": 40002950,
+      "coursecode": "NET-06-02",
+      "ccoursecode": "180-NET-06-02"
+    },
+    {
+      "courseId": 40002951,
+      "coursecode": "NET-06-03",
+      "ccoursecode": "180-NET-06-03"
+    },
+    {
+      "courseId": 40002952,
+      "coursecode": "NIS-06-02",
+      "ccoursecode": "180-NIS-06-02"
+    },
+    {
+      "courseId": 40002953,
+      "coursecode": "NET-07-01",
+      "ccoursecode": "180-NET-07-01"
+    },
+    {
+      "courseId": 40002954,
+      "coursecode": "NIS-06-03",
+      "ccoursecode": "180-NIS-06-03"
+    },
+    {
+      "courseId": 40002955,
+      "coursecode": "NET-07-02",
+      "ccoursecode": "180-NET-07-02"
+    },
+    {
+      "courseId": 40002956,
+      "coursecode": "NET-07-03",
+      "ccoursecode": "180-NET-07-03"
+    },
+    {
+      "courseId": 40002957,
+      "coursecode": "NIS-06-04",
+      "ccoursecode": "180-NIS-06-04"
+    },
+    {
+      "courseId": 40002958,
+      "coursecode": "NGE-06-01",
+      "ccoursecode": "180-NGE-06-01"
+    },
+    {
+      "courseId": 40002959,
+      "coursecode": "NGE-06-02",
+      "ccoursecode": "180-NGE-06-02"
+    },
+    {
+      "courseId": 40002960,
+      "coursecode": "NGE-06-03",
+      "ccoursecode": "180-NGE-06-03"
+    },
+    {
+      "courseId": 40002961,
+      "coursecode": "NDM-06-01",
+      "ccoursecode": "180-NDM-06-01"
+    },
+    {
+      "courseId": 40002962,
+      "coursecode": "NIS-06-05",
+      "ccoursecode": "180-NIS-06-05"
+    },
+    {
+      "courseId": 40002963,
+      "coursecode": "NDM-06-02",
+      "ccoursecode": "180-NDM-06-02"
+    },
+    {
+      "courseId": 40002964,
+      "coursecode": "NIS-06-06",
+      "ccoursecode": "180-NIS-06-06"
+    },
+    {
+      "courseId": 40002965,
+      "coursecode": "NET-08-02",
+      "ccoursecode": "180-NET-08-02"
+    },
+    {
+      "courseId": 40002966,
+      "coursecode": "NIS-07-01",
+      "ccoursecode": "180-NIS-07-01"
+    },
+    {
+      "courseId": 40002967,
+      "coursecode": "NET-08-01",
+      "ccoursecode": "180-NET-08-01"
+    },
+    {
+      "courseId": 40002968,
+      "coursecode": "NIS-07-02",
+      "ccoursecode": "180-NIS-07-02"
+    },
+    {
+      "courseId": 40002969,
+      "coursecode": "NIS-07-04",
+      "ccoursecode": "180-NIS-07-04"
+    },
+    {
+      "courseId": 40002970,
+      "coursecode": "NIS-07-05",
+      "ccoursecode": "180-NIS-07-05"
+    },
+    {
+      "courseId": 40002971,
+      "coursecode": "NDM-07-01",
+      "ccoursecode": "180-NDM-07-01"
+    },
+    {
+      "courseId": 40002972,
+      "coursecode": "NGE-07-01",
+      "ccoursecode": "180-NGE-07-01"
+    },
+    {
+      "courseId": 40002973,
+      "coursecode": "NIS-07-06",
+      "ccoursecode": "180-NIS-07-06"
+    },
+    {
+      "courseId": 40002974,
+      "coursecode": "NDM-07-02",
+      "ccoursecode": "180-NDM-07-02"
+    },
+    {
+      "courseId": 40002975,
+      "coursecode": "NIS-08-01",
+      "ccoursecode": "180-NIS-08-01"
+    },
+    {
+      "courseId": 40002977,
+      "coursecode": "NDM-07-04",
+      "ccoursecode": "180-NDM-07-04"
+    },
+    {
+      "courseId": 40002978,
+      "coursecode": "NIS-08-02",
+      "ccoursecode": "180-NIS-08-02"
+    },
+    {
+      "courseId": 40002979,
+      "coursecode": "NDM-08-01",
+      "ccoursecode": "180-NDM-08-01"
+    },
+    {
+      "courseId": 40002980,
+      "coursecode": "NDM-08-02",
+      "ccoursecode": "180-NDM-08-02"
+    },
+    {
+      "courseId": 40002981,
+      "coursecode": "NIS-08-03",
+      "ccoursecode": "180-NIS-08-03"
+    },
+    {
+      "courseId": 40002982,
+      "coursecode": "NDM-08-03",
+      "ccoursecode": "180-NDM-08-03"
+    },
+    {
+      "courseId": 40002983,
+      "coursecode": "NIS-07-03",
+      "ccoursecode": "180-NIS-07-03"
+    },
+    {
+      "courseId": 40003000,
+      "coursecode": "NGE-08-01",
+      "ccoursecode": "180-NGE-08-01"
+    },
+    {
+      "courseId": 600000305,
+      "coursecode": "NNA-06-04",
+      "ccoursecode": "180-NNA-06-04"
+    },
+    {
+      "courseId": 600000307,
+      "coursecode": "NNA-06-05",
+      "ccoursecode": "180-NNA-06-05"
+    },
+    {
+      "courseId": 600000308,
+      "coursecode": "NNA-06-06",
+      "ccoursecode": "180-NNA-06-06"
+    },
+    {
+      "courseId": 600000309,
+      "coursecode": "NNA-07-09",
+      "ccoursecode": "180-NNA-07-09"
+    },
+    {
+      "courseId": 600000310,
+      "coursecode": "NNA-08-04",
+      "ccoursecode": "180-NNA-08-04"
+    },
+    {
+      "courseId": 600002305,
+      "coursecode": "NGE-07-02",
+      "ccoursecode": "180-NGE-07-02"
+    },
+    {
+      "courseId": 600003609,
+      "coursecode": "NIS-07-07",
+      "ccoursecode": "180-NIS-07-07"
+    },
+    {
+      "courseId": 600012581,
+      "coursecode": "NIS-06-07",
+      "ccoursecode": "180-NIS-06-07"
+    },
+    {
+      "courseId": 600012836,
+      "coursecode": "NGE-08-02",
+      "ccoursecode": "180-NGE-08-02"
+    },
+    {
+      "courseId": 600013185,
+      "coursecode": "NGE-07-03",
+      "ccoursecode": "180-NGE-07-03"
+    },
+    {
+      "courseId": 600014101,
+      "coursecode": "NGE-06-04",
+      "ccoursecode": "180-NGE-06-04"
+    },
+    {
+      "courseId": 600014102,
+      "coursecode": "NGE-06-05",
+      "ccoursecode": "180-NGE-06-05"
+    },
+    {
+      "courseId": 600014103,
+      "coursecode": "NGE-08-03",
+      "ccoursecode": "180-NGE-08-03"
+    },
+    {
+      "courseId": 600014421,
+      "coursecode": "NNA-08-05",
+      "ccoursecode": "180-NNA-08-05"
+    },
+    {
+      "courseId": 600014927,
+      "coursecode": "NIS-07-08",
+      "ccoursecode": "180-NIS-07-08"
+    },
+    {
+      "courseId": 600014928,
+      "coursecode": "NIS-08-04",
+      "ccoursecode": "180-NIS-08-04"
+    },
+    {
+      "courseId": 600016577,
+      "coursecode": "NDM-06-04",
+      "ccoursecode": "180-NDM-06-04"
+    },
+    {
+      "courseId": 600016578,
+      "coursecode": "NDM-07-05",
+      "ccoursecode": "180-NDM-07-05"
+    }
+  ]
+}
