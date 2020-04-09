@@ -37,12 +37,12 @@ warnings.simplefilter(action='ignore', category=Warning)
 
 
 # Global Variables
-PATH = "/home/gregory/PycharmProjects/Grade/"  # <---------- Change this to path of your project
+PATH = "PATH"  # <---------- Change this to path of your project
 # Define files
-form_csv = PATH + "Form_Responses_11_09.csv"
-folder_with_grade_csvs = PATH + "csv/"
+form_csv = "Form_Responses_2020_03_21.csv"
+folder_with_grade_csvs = "GradeParser/csv/"
 # Json with the valid courses as got from OPEN AUTH API (https://ws-ext.it.auth.gr/)
-valid_courses_json = PATH + "courses_ids_600000014.json"
+valid_courses_json = "courses_ids_600000014.json"
 
 
 def main():
@@ -72,7 +72,7 @@ def main():
     data = handle_categorical(data)
 
     # Write to file
-    data.to_csv(PATH + "csd.csv", index=False)
+    data.to_csv(PATH + "csd_2020_renamed.csv", index=False)
 
 
 # Find associated csv - Function
@@ -197,7 +197,7 @@ def rename_columns(data):
     # Change Courses Names
     with open(valid_courses_json, "r") as json_file:
         json_file = json.load(json_file)
-    coded_courses = json_normalize(json_file['courses'])
+    coded_courses = pd.json_normalize(json_file['courses'])
     del coded_courses['ccoursecode']
     course_dict = coded_courses.set_index('coursecode')['courseId'].to_dict()
 
