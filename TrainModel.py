@@ -8,29 +8,32 @@ from sklearn.model_selection import LeaveOneOut
 from xgboost import XGBRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
+import pickle
+
 import warnings  # needed for this type of classifier
 warnings.simplefilter(action='ignore', category=Warning)
 
 
-PATH = "/home/gregory/PycharmProjects/Grade/"  # <---------- Change this to path of your project.
+PATH = "PATH"  # <---------- Change this to path of your project.
 
 
 def main():
-    data = pd.read_csv(PATH + "csd.csv")
+    data = pd.read_csv(PATH + "csd_2020_renamed.csv")
     characteristics_cols, courses_cols = split_data(data)
     course_case = -1
-    feature_case = 3
+    feature_case = 1
     course_columns = select_courses(course_case, courses_cols, data)
     selected_columns = select_features(feature_case, characteristics_cols, courses_cols)
+    
     # Select only those columns
-
     data_selected = data.loc[:, selected_columns]
     training(course_columns, data_selected, data)
 
     X, y = training(course_columns, data_selected, data)
-    corellation_table(data_selected)
-    prediction_course = persistence(data_selected)
-    save_model(X, y, prediction_course)
+    #corellation_table(data_selected)
+
+    # Save the models
+    persistence(data_selected, course_columns)
 
 
 def split_data(data):
@@ -120,22 +123,15 @@ def corellation_table(data_selected):
     plt.show()
 
 
-def persistence(data_selected):
-    prediction_course = "40002908"  # NCO-04-05
-    # display(data_selected)
-    data_persistence_selected = data_selected[data_selected[prediction_course] > 0]
-    X = data_persistence_selected.drop(prediction_course, axis=1, inplace=False)
-    y = data_persistence_selected.loc[:, prediction_course]
-    return prediction_course
+def persistence(data_selected, course_columns):
+    for prediction_course in course_columns:
+        data_persistence_selected = data_selected[data_selected[prediction_course] >= 0]
+        X = data_persistence_selected.drop(prediction_course,axis=1,inplace=False)
+        y = data_persistence_selected.loc[:,prediction_course]
+        xgb_model = XGBRegressor(objective = 'reg:squarederror')
+        xgb_model.fit(X,y)
+        pickle.dump(xgb_model, open(PATH + "models/version1/" + prediction_course +".dat", "wb"))
 
-
-def save_model(X, y, prediction_course):
-    xgb_model = XGBRegressor(objective='reg:squarederror')
-    xgb_model.fit(X, y)
-    xgb_model.get_booster().feature_names
-    import pickle
-
-    pickle.dump(xgb_model, open(PATH + "xgb_" + prediction_course + ".dat", "wb"))
-
+    print(xgb_model.get_booster().feature_names)
 
 main()
